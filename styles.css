@@ -1,0 +1,126 @@
+
+body {
+  background: linear-gradient(to bottom, #0d1117, #1c1c1e);
+  color: #e4e4e4; /* light grey for readability */
+  margin: 0;
+  padding: 0 20px 40px 20px;
+  box-sizing: border-box;
+}
+
+#menu{
+width:100%;
+height:40px;
+background-color: cornflowerblue;
+padding-top: 12px;
+}
+#menu a{
+color:#ffffff;
+font-family: Helvetica, sans-serif;
+font-size: 18px;
+text-decoration:none;
+font-weight: 800px;
+padding-left: 20px;
+padding-right: 20px;
+}
+#menu a:hover{
+color: #5077bd;
+}
+
+
+.gallery img{
+width: 100%;
+}
+
+
+/* Gallery container layout */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Make gallery links behave like cards */
+.gallery a {
+  display: block;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for image cards */
+.gallery a:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+/* Optional: keep image ratio neat */
+.gallery img {
+  display: block;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+font-family: Helvetica, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 40px;
+  color: #61dafb; /* bright blue pop */
+}
+
+h4 {
+font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  color: #90caf9;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+/* Bio and Power Stats */
+p {
+ font-family: Arial, sans-serif;
+  font-size: 18px;
+  padding-left: 25px;
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+/* Bold labels inside p */
+p b {
+ color: #ffffff;}
+
+/* Gallery image for character page */
+.gallery img {
+max-width: 300px;
+  margin: 30px auto 20px auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+
+}
+
+/* Page Headings */
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 30px;
+  color: #90caf9;
+}
+
+/* Paragraph styling for general pages */
+body p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #90caf9;
+  text-align: center;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+
+
